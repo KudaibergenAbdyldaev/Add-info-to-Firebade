@@ -2,26 +2,26 @@ package com.example.newapp;
 
 public class Upload {
 
-    private String mName;
+    private String name;
     private String price;
-    private String mImageUrl;
+    private String imageUrl;
 
     public Upload() {
 
     }
 
-    public Upload(String mName, String price, String mImageUrl) {
-        this.mName = mName;
+    public Upload(String name, String price, String imageUrl) {
+        this.name = name;
         this.price = price;
-        this.mImageUrl = mImageUrl;
+        this.imageUrl = imageUrl;
     }
 
-    public String getmName() {
-        return mName;
+    public String getName() {
+        return name;
     }
 
-    public void setmName(String mName) {
-        this.mName = mName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getPrice() {
@@ -32,11 +32,11 @@ public class Upload {
         this.price = price;
     }
 
-    public String getmImageUrl() {
-        return mImageUrl;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setmImageUrl(String mImageUrl) {
-        this.mImageUrl = mImageUrl;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
